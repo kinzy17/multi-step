@@ -1,0 +1,23 @@
+.differentStages {
+    display: flex;
+    margin: 0 0 0 3%;
+}
+
+.stageTrackerLeftMainDiv {
+    background-color: #6060d1;
+    width: 260px;
+    padding: 0 0 30% 5%;
+    border-radius: 10px;
+}
+
+.stageDescription {
+    color: white;
+    margin-top: 1%;
+}
+.stageDescription p{
+    color: gray;
+    font-size: 13px;
+}
+.stageDescription h5{
+    font-size: 14px;
+}

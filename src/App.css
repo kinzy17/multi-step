@@ -1,0 +1,19 @@
+
+
+body{
+    /* background-color: rgb(219, 236, 236); */
+    background-color: rgb(117, 122, 126);
+
+}
+.App{
+    
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+}
+
+.landing-wrapper{
+   
+    border-radius: 10px;
+}

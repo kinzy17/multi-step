@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    margin-top: 5%;
+}
+
+.toggle {
+    background-color: rgb(227, 240, 240);
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    height: 32px;
+    padding: 3%;
+    border-radius: 10px;
+    /* margin-left: 50px; */
+}
+
+
+.buttonLine {
+    display: flex;
+    margin: 4% 0 0 2%;
+
+}
+
+#toggle-switch::after{
+    content: '';
+    @apply h-12 w-20 rounded-full bg-neon absolute left-0 top-0 transform scale-90 transition duration-500;
+  }
+  
+  #toggle-switch:checked::after{
+    @apply transform scale-90 translate-x-32;
+  }

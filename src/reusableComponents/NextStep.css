@@ -1,0 +1,18 @@
+.nextStep {
+    font-weight: 600px;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    color: white;
+    border: none;
+    margin: 2% 0 2% 60%;
+    background-color: rgb(20, 46, 77);
+}
+
+.nextStep:hover {
+    background-color: rgb(163, 163, 204);
+    /* color: black; */
+}

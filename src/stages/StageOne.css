@@ -1,0 +1,28 @@
+.stage-one-main-div {
+    margin: 0 0 0 1%;
+    /* background-color: aquamarine; */
+    padding-left: 4%;
+}
+
+.labelError{
+    display: flex;
+}
+.please-provide{
+    margin-bottom: 1%;
+}
+.stage-one-main-div label{
+    font-size: 16px;
+}
+.stage-one-main-div input {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 35px;
+    margin: 0 4% 3% 0;
+}
+.errorTag{
+    color: brown;
+    font-weight: 200px;
+    margin-left: 55%;
+    font-size: 12px;
+}

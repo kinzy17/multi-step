@@ -1,0 +1,38 @@
+.card-main-body {
+    border-radius: 10px;
+    border: 1px solid #bbb8b8;
+    background-color: white;
+    width: 35%;
+    margin: 2% 1% 8% 3%;
+}
+
+.card-main-body :hover {
+    /* border: 2px solid rgb(235, 205, 235); */
+}
+
+.card-main-body :focus {
+    border: 2px solid rgb(235, 205, 235);
+    background-color: rgb(237, 245, 245);
+
+}
+
+.plain-card-image-div {
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+    margin: 15% 55% 25% 1%;
+}
+
+.plain-card-image-div img {
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+    margin-left: 20%;
+}
+
+.card-main-body-button {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    width:100%;
+}

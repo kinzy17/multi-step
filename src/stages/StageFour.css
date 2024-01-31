@@ -1,0 +1,39 @@
+
+.preview-display-div{
+    background-color: rgb(217, 228, 230);
+    border-radius: 10px;
+}
+
+.double-check{
+    margin-bottom: 5%;
+}
+.displayList{
+    list-style: none;
+    display: flex;
+    padding: 1% 0 2% 2%;
+}
+.change{
+    margin-left: 5%;
+    background-color:  rgb(230, 238, 240); ;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+.change :hover{
+    pointer-events: painted;
+    background-color: orange;
+    border-bottom: 1px solid rgb(255, 251, 0);
+}
+.nameTag{
+    margin-right: 50%;
+}
+.displayTotal{
+    list-style: none;
+    display: flex;
+    padding: 4% 0 0 0;
+}
+.total{
+    font-style: bold;
+}
+.totalPer{
+    margin-right: 45%;
+}
